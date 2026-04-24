@@ -1,0 +1,28 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00.000Z",
+  "appVersion": "1.2.3",
+  "buildNumber": "456",
+  "environment": "production",
+  "dependencies": {
+    "api": {
+      "status": "healthy",
+      "responseTime": 123,
+      "lastChecked": "2024-10-27T10:29:55.000Z"
+    },
+    "database": {
+      "status": "healthy",
+      "connectionType": "PostgreSQL",
+      "lastChecked": "2024-10-27T10:29:50.000Z"
+    }
+  },
+  "metrics": {
+    "cpuUsage": 0.15,
+    "memoryUsage": 0.6,
+    "diskUsage": 0.3
+  },
+  "customData": {
+    "userId": "user123",
+    "sessionId": "session456"
+  }
+}
